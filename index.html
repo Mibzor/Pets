@@ -1,190 +1,881 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="build//null.css">
-   <link rel="stylesheet" href="build/fonts.css">
-   <link rel="stylesheet" href="build//style.css">
-   <title>Portfolio</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Jura:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap&_v=20221013202838"
+      rel="stylesheet">
+   <link rel="stylesheet" href="css/style.min.css?_v=20221013202838">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20221013202838" />
+   <title>Pikachu</title>
 </head>
 
 <body>
    <div class="wrapper">
       <header class="header">
-         <div class="container">
-            <div class="header__img">
-               <img src="img/blick.svg" alt="blick">
-            </div>
-            <div class="header__circle"></div>
-            <div class="header__block">
-               <div class="header__text">
-                  <div class="header__hi">
-                     <img src="img/hi.png" alt="">
-                  </div>
-                  <div class="header__title">
-                     <span class="header__block-color">
-                        <span class="header__block-text">I’m Iosi, </span>
-                        <span class="header__color"></span>
-                     </span> a product
-                     designer from Indonesia. A
-                     passionate one in
-                     human-centred design.
-                  </div>
+   <div class="container header__container">
+      <div class="header__left">
+         <nav class="menu">
+            <div class="menu__wrap">
+               <div class="menu__burger">
+                  <img src="img/icons/menu.svg" alt="menu">
                </div>
-               <div class="header__person">
-                  <img src="img/person.svg" alt="person">
-               </div>
+               <div class="lockbody"></div>
+               <nav class="menu__body">
+                  <div class="menu__burger--mobile">
+                     <img src="img/elements/right.svg" alt="menu">
+                  </div>
+                  <ul class="menu__list">
+                     <li class="menu__item"><a href="" class="menu__link">Кухонные ножи TUOTOWN</a></li>
+                     <li class="menu__item"><a href="" class="menu__link">Складные ножи TUOTOWN</a></li>
+                     <li class="menu__item"><a href="" class="menu__link">Кухонные ножи QXF</a></li>
+                     <li class="menu__item"><a href="" class="menu__link">Наборы для BBQ</a></li>
+                     <li class="menu__item"><a href="" class="menu__link">Кухонные принадлежности</a></li>
+                     <li class="menu__item"><a href="" class="menu__link">Туристические товары</a></li>
+                  </ul>
+                  <div class="menu__other-links">
+                     <li class="menu__item"><a href="" class="menu__link">Новости</a></li>
+                     <li class="menu__item"><a href="" class="menu__link">О компании</a></li>
+                     <li class="menu__item"><a href="" class="menu__link">Контакты</a></li>
+                     <li class="menu__item"><a href="" class="menu__link">Как проехать</a></li>
+                  </div>
+               </nav>
             </div>
-            <div class="header__subtitle">
-               <p>Currently <span>Freelancing</span> for<span> UX, UI, & Web Design</span> Project . Invite me to join
-                  your design team ->
-                  <span>pratamaiosi@gmail.com</span>
-               </p>
-            </div>
+         </nav>
+         <div class="header__map">
+            <a href="#"><img src="img/icons/map.svg" alt="map"></a>
          </div>
-      </header>
+         <div class="header__phone">
+            <a href="tell:89811201117"><img src="img/icons/phone.svg" alt=""></a>
+            <a href="tell:89811201117">8 981 120-11-17</a>
+         </div>
+      </div>
+      <div class="header__logo">
+         <a href="#">
+            <img src="img/header/logo.svg" alt="logo">
+         </a>
+      </div>
+      <div class="header__right">
+         <div data-da=".header__left,625,last" class="header__shop">
+            <a href="#"><img src="img/icons/shop.svg" alt="shop"></a>
+         </div>
+         <div class="header__mail">
+            <a href="mailto:someone@example.com"><img src="img/icons/mail.svg" alt="mail"></a>
+         </div>
+         <div class="header__search">
+            <a href="#"><img src="img/icons//search.svg" alt="search"></a>
+         </div>
+      </div>
+   </div>
+</header>
       <main class="main">
-         <section class="cases">
-            <div class="container">
-               <div class="cases__wrap">
-                  <div class="cases__block">
-                     <div class="cases__item">
-                        <h3 class="cases__title">Kalender Indonesia</h3>
-                        <div class="cases__subtitle">Redesign Kalender Indonesia Mobile App to serve a new user needs
+         <section class="introduction">
+            <div class="container introduction__container">
+               <div class="swiper introduction-swiper">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide">
+                        <div class="swiper-slide">
+                           <h1 class="introduction__title">Исключительное качество без компромиссов</h1>
+                           <div class="introduction__subtitle">
+                              Ножи «Tuotown» – это главный инструмент поваров и секрет кулинарного мастерства
+                           </div>
+                           <div class="introduction__btn">
+                              <button class="button">
+   <span class="button__text">Подробнее</span>
+</button>
+                           </div>
                         </div>
-                        <div class="cases__text"><a href="">Read Case Study</a></div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="swiper-slide">
+                           <h1 class="introduction__title">Исключительное качество без компромиссов</h1>
+                           <div class="introduction__subtitle">
+                              Ножи «Tuotown» – это главный инструмент поваров и секрет кулинарного мастерства
+                           </div>
+                           <div class="introduction__btn">
+                              <button class="button">
+   <span class="button__text">Подробнее</span>
+</button>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="swiper-slide">
+                           <h1 class="introduction__title">Исключительное качество без компромиссов</h1>
+                           <div class="introduction__subtitle">
+                              Ножи «Tuotown» – это главный инструмент поваров и секрет кулинарного мастерства
+                           </div>
+                           <div class="introduction__btn">
+                              <button class="button">
+   <span class="button__text">Подробнее</span>
+</button>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="swiper-slide">
+                           <h1 class="introduction__title">Исключительное качество без компромиссов</h1>
+                           <div class="introduction__subtitle">
+                              Ножи «Tuotown» – это главный инструмент поваров и секрет кулинарного мастерства
+                           </div>
+                           <div class="introduction__btn">
+                              <button class="button">
+   <span class="button__text">Подробнее</span>
+</button>
+                           </div>
+                        </div>
                      </div>
                   </div>
-                  <div class="cases__block">
-                     <div class="cases__item">
-                        <h3 class="cases__title">Kalender Indonesia</h3>
-                        <div class="cases__subtitle">Redesign Kalender Indonesia Mobile App to serve a new user needs
+               </div>
+               <div class="swiper-button-next swiper-button">
+                  <span>
+                     <img src="img/elements/slider-line.svg" alt="">
+                  </span>
+               </div>
+               <div class="swiper-button-prev swiper-button">
+                  <span>
+                     <img src="img/elements/slider-line.svg" alt="">
+                  </span>
+               </div>
+               <div class="swiper-pagination"></div>
+            </div>
+         </section>
+         <section class="goods">
+            <div class="container goods__container">
+               <div class="tabs">
+                  <div class="tabs__list">
+                     <button class="tabs__btn tabs__item tabs__btn--active" data-tabs-path="paring-knife">
+                        Кухонные ножи
+                     </button>
+                     <div class="tabs__btn tabs__item" data-tabs-path="pocketknife">
+                        Складные ножи
+                     </div>
+                     <div class="tabs__btn tabs__item" data-tabs-path="knife-sharpeners">
+                        Точилки для ножей
+                     </div>
+                     <div class="tabs__btn tabs__item" data-tabs-path="kitchen accessories">
+                        Аксессуары для кухни
+                     </div>
+                  </div>
+                  <div class="tabs__content tabs__content--active" data-tabs-target="paring-knife">
+                     <div class="content">
+                        <div class="tabs__block">
+                           <div class="tabs__card card-info">
+                              <div class="card-info__block">
+                                 <a href="">Познакомьтесь с коллекцией ножей TUOTOWN</a>
+                                 <a href=""><img src="img/elements/slider-line.svg" alt="arrow"></a>
+                              </div>
+                           </div>
+                           <div class="tabs__card card-tab">
+                              <div class="card-tab__img">
+                                 <div class="card-tab__to-basket">
+                                    <img src="img/elements/plus.svg" alt="plus">
+                                 </div>
+                                 <a href=""><picture><source srcset="img/card/knife-blue.webp" type="image/webp"><img src="img/card/knife-blue.png" alt="knife"></picture></a>
+                              </div>
+                              <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                              <div class="card-tab__price"><span>850 р.</span> <span class="card-tab__new"><a
+                                       href="">Новинка</a></span></div>
+                           </div>
+                           <div class="tabs__card card-tab">
+                              <div class="card-tab__img">
+                                 <div class="card-tab__to-basket">
+                                    <img src="img/elements/plus.svg" alt="plus">
+                                 </div>
+                                 <a href=""><picture><source srcset="img/card/knife-blue.webp" type="image/webp"><img src="img/card/knife-blue.png" alt="knife"></picture></a>
+                              </div>
+                              <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                              <div class="card-tab__price"><span>850 р.</span></div>
+                           </div>
                         </div>
-                        <div class="cases__text"><a href="">Read Case Study</a></div>
+                        <div class="tabs__block">
+                           <div class="tabs__card card-tab">
+                              <div class="card-tab__img">
+                                 <div class="card-tab__to-basket">
+                                    <img src="img/elements/plus.svg" alt="plus">
+                                 </div>
+                                 <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                              </div>
+                              <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                              <div class="card-tab__price"><span>850 р.</span></div>
+                           </div>
+                           <div class="tabs__card card-tab">
+                              <div class="card-tab__img">
+                                 <div class="card-tab__to-basket">
+                                    <img src="img/elements/plus.svg" alt="plus">
+                                 </div>
+                                 <a href=""><picture><source srcset="img/card/knife-blue.webp" type="image/webp"><img src="img/card/knife-blue.png" alt="knife"></picture></a>
+                              </div>
+                              <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                              <div class="card-tab__price"><span>450 р.</span></div>
+                           </div>
+                           <div class="tabs__card card-tab">
+                              <div class="card-tab__img">
+                                 <div class="card-tab__to-basket">
+                                    <img src="img/elements/plus.svg" alt="plus">
+                                 </div>
+                                 <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                              </div>
+                              <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                              <div class="card-tab__price"><span>1000 р.</span></div>
+                           </div>
+                           <div class="tabs__card card-tab">
+                              <div class="card-tab__img">
+                                 <div class="card-tab__to-basket">
+                                    <img src="img/elements/plus.svg" alt="plus">
+                                 </div>
+                                 <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                              </div>
+                              <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                              <div class="card-tab__price"><span>950 р.</span></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tabs__content" data-tabs-target="pocketknife">
+                     <div class="content">
+                        <div class="tabs__block">
+                           <div class="tabs__card card-info">
+                              <div class="card-info__block">
+                                 <a href="">Познакомьтесь с коллекцией ножей TUOTOWN2</a>
+                                 <a href=""><img src="img/elements/slider-line.svg" alt="arrow"></a>
+                              </div>
+                           </div>
+                           <div class="tabs__card card-tab">
+                              <div class="card-tab__img">
+                                 <div class="card-tab__to-basket">
+                                    <img src="img/elements/plus.svg" alt="plus">
+                                 </div>
+                                 <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                              </div>
+                              <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                              <div class="card-tab__price"><span>350 р.</span></div>
+                           </div>
+                           <div class="tabs__card card-tab">
+                              <div class="card-tab__img">
+                                 <div class="card-tab__to-basket">
+                                    <img src="img/elements/plus.svg" alt="plus">
+                                 </div>
+                                 <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                              </div>
+                              <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                              <div class="card-tab__price"><span>800 р.</span></div>
+                           </div>
+                        </div>
+                        <div class="tabs__block">
+                           <div class="tabs__card card-tab">
+                              <div class="card-tab__img">
+                                 <div class="card-tab__to-basket">
+                                    <img src="img/elements/plus.svg" alt="plus">
+                                 </div>
+                                 <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                              </div>
+                              <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                              <div class="card-tab__price"><span>690 р.</span></div>
+                           </div>
+                           <div class="tabs__card card-tab">
+                              <div class="card-tab__img">
+                                 <div class="card-tab__to-basket">
+                                    <img src="img/elements/plus.svg" alt="plus">
+                                 </div>
+                                 <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                              </div>
+                              <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                              <div class="card-tab__price"><span>850 р.</span></div>
+                           </div>
+                           <div class="tabs__card card-tab">
+                              <div class="card-tab__img">
+                                 <div class="card-tab__to-basket">
+                                    <img src="img/elements/plus.svg" alt="plus">
+                                 </div>
+                                 <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                              </div>
+                              <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                              <div class="card-tab__price"><span>3000 р.</span></div>
+                           </div>
+                           <div class="tabs__card card-tab">
+                              <div class="card-tab__img">
+                                 <div class="card-tab__to-basket">
+                                    <img src="img/elements/plus.svg" alt="plus">
+                                 </div>
+                                 <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                              </div>
+                              <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                              <div class="card-tab__price"><span>850 р.</span></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tabs__content" data-tabs-target="knife-sharpeners">
+                     <div class="content">
+                        <div class="tabs__block">
+                           <div class="tabs__card card-info">
+                              <div class="card-info__block">
+                                 <a href="">Познакомьтесь с коллекцией ножей TUOTOWN3</a>
+                                 <a href=""><img src="img/elements/slider-line.svg" alt="arrow"></a>
+                              </div>
+                           </div>
+                           <div class="tabs__card card-tab">
+                              <div class="card-tab__img">
+                                 <div class="card-tab__to-basket">
+                                    <img src="img/elements/plus.svg" alt="plus">
+                                 </div>
+                                 <a href=""><picture><source srcset="img/card/knife-blue.webp" type="image/webp"><img src="img/card/knife-blue.png" alt="knife"></picture></a>
+                              </div>
+                              <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                              <div class="card-tab__price"><span>7000 р.</span></div>
+                           </div>
+                           <div class="tabs__card card-tab">
+                              <div class="card-tab__img">
+                                 <div class="card-tab__to-basket">
+                                    <img src="img/elements/plus.svg" alt="plus">
+                                 </div>
+                                 <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                              </div>
+                              <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                              <div class="card-tab__price"><span>1000 р.</span></div>
+                           </div>
+                        </div>
+                        <div class="tabs__block">
+                           <div class="tabs__card card-tab">
+                              <div class="card-tab__img">
+                                 <div class="card-tab__to-basket">
+                                    <img src="img/elements/plus.svg" alt="plus">
+                                 </div>
+                                 <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                              </div>
+                              <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                              <div class="card-tab__price"><span>350 р.</span></div>
+                           </div>
+                           <div class="tabs__card card-tab">
+                              <div class="card-tab__img">
+                                 <div class="card-tab__to-basket">
+                                    <img src="img/elements/plus.svg" alt="plus">
+                                 </div>
+                                 <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                              </div>
+                              <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                              <div class="card-tab__price"><span>850 р.</span></div>
+                           </div>
+                           <div class="tabs__card card-tab">
+                              <div class="card-tab__img">
+                                 <div class="card-tab__to-basket">
+                                    <img src="img/elements/plus.svg" alt="plus">
+                                 </div>
+                                 <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                              </div>
+                              <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                              <div class="card-tab__price"><span>850 р.</span></div>
+                           </div>
+                           <div class="tabs__card card-tab">
+                              <div class="card-tab__img">
+                                 <div class="card-tab__to-basket">
+                                    <img src="img/elements/plus.svg" alt="plus">
+                                 </div>
+                                 <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                              </div>
+                              <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                              <div class="card-tab__price"><span>850 р.</span></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tabs__content" data-tabs-target="kitchen accessories">
+                     <div class="content">
+                        <div class="tabs__block">
+                           <div class="tabs__card card-info">
+                              <div class="card-info__block">
+                                 <a href="">Познакомьтесь с коллекцией ножей TUOTOWN4</a>
+                                 <a href=""><img src="img/elements/slider-line.svg" alt="arrow"></a>
+                              </div>
+                           </div>
+                           <div class="tabs__card card-tab">
+                              <div class="card-tab__img">
+                                 <div class="card-tab__to-basket">
+                                    <img src="img/elements/plus.svg" alt="plus">
+                                 </div>
+                                 <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                              </div>
+                              <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                              <div class="card-tab__price"><span>850 р.</span></div>
+                           </div>
+                           <div class="tabs__card card-tab">
+                              <div class="card-tab__img">
+                                 <div class="card-tab__to-basket">
+                                    <img src="img/elements/plus.svg" alt="plus">
+                                 </div>
+                                 <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                              </div>
+                              <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                              <div class="card-tab__price"><span>850 р.</span></div>
+                           </div>
+                        </div>
+                        <div class="tabs__block">
+                           <div class="tabs__card card-tab">
+                              <div class="card-tab__img">
+                                 <div class="card-tab__to-basket">
+                                    <img src="img/elements/plus.svg" alt="plus">
+                                 </div>
+                                 <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                              </div>
+                              <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                              <div class="card-tab__price"><span>850 р.</span></div>
+                           </div>
+                           <div class="tabs__card card-tab">
+                              <div class="card-tab__img">
+                                 <div class="card-tab__to-basket">
+                                    <img src="img/elements/plus.svg" alt="plus">
+                                 </div>
+                                 <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                              </div>
+                              <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                              <div class="card-tab__price"><span>850 р.</span></div>
+                           </div>
+                           <div class="tabs__card card-tab">
+                              <div class="card-tab__img">
+                                 <div class="card-tab__to-basket">
+                                    <img src="img/elements/plus.svg" alt="plus">
+                                 </div>
+                                 <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                              </div>
+                              <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                              <div class="card-tab__price"><span>850 р</span>.</div>
+                           </div>
+                           <div class="tabs__card card-tab">
+                              <div class="card-tab__img">
+                                 <div class="card-tab__to-basket">
+                                    <img src="img/elements/plus.svg" alt="plus">
+                                 </div>
+                                 <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                              </div>
+                              <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                              <div class="card-tab__price"><span>850 р.</span></div>
+                           </div>
+                        </div>
                      </div>
                   </div>
                </div>
             </div>
          </section>
-         <section class="freelance">
-            <div class="container">
-               <h3 class="freelance__title title">my last freelance works</h3>
-               <div class="freelance__block">
-                  <div class="freelance__image">
-                     <img src="img/freelance_img.svg" alt="freelance-work">
+         <section class="mobile-knifes">
+            <div class="container mobile-knifes__container">
+               <div class="mobile-knifes__block">
+                  <div class="mobile-knifes__item">
+                     <div class="mobile-knifes__img">
+                        <picture><source srcset="img/mobile/01-mobile.webp" type="image/webp"><img src="img/mobile/01-mobile.jpg" alt="knife"></picture>
+                     </div>
+                     <div class="mobile-knifes__info">
+                        <h4 class="mobile-knifes__title">Исключительное качество без компромиссов</h4>
+                        <div class="mobile-knifes__text">Ножи «Tuotown» — это главный инструмент поваров и секрет
+                           кулинарного мастерства</div>
+                     </div>
                   </div>
-                  <div class="f-descr-wrap">
-                     <div class="freelance__descr f-descr">
-                        <div class="f-descr__title">
-                           <span>Mr Biller</span> - Startup
-                        </div>
-                        <div class="f-descr__text">
-                           <p>Redesign Mr Biller Landing Page become more fresh and could respresent their business
-                              better.
-                           </p>
-                        </div>
-                        <div class="f-descr__client">
-                           <span>Client from</span>
-                           <img src="img/client_flag2.png" alt="flag">
-                        </div>
-                        <a href="" class="f-descr__link link-arrow">
-                           <span>Check on live</span>
-                           <img src="img/arrow_right.svg" alt="arrow">
-                        </a>
+                  <div class="mobile-knifes__item">
+                     <div class="mobile-knifes__img">
+                        <picture><source srcset="img/mobile/02-mobile.webp" type="image/webp"><img src="img/mobile/02-mobile.jpg" alt="knife"></picture>
+                     </div>
+                     <div class="mobile-knifes__info">
+                        <h4 class="mobile-knifes__title">Исключительное качество без компромиссов</h4>
+                        <div class="mobile-knifes__text">Ножи «Tuotown» — это главный инструмент поваров и секрет
+                           кулинарного мастерства</div>
                      </div>
                   </div>
                </div>
             </div>
          </section>
-         <section class="writing">
-            <div class="container">
-               <h3 class="title">Activities on Spare Time</h3>
-               <h4 class="writing__title">Writing</h4>
-               <div class="writing__block">
-                  <div class="writing__info w-info">
-                     <div class="w-info__img">
-                        <img src="img/writing_machine.jpg" alt="writing-machine">
+         <section class="swiper-mobile">
+            <div class="slider-mobile">
+               <div class="slider-mobile__wrapper swiper-wrapper">
+                  <div class="slider-mobile__slide swiper-slide">
+                     <picture><source srcset="img/mobile/knifes-mobile.webp" type="image/webp"><img src="img/mobile/knifes-mobile.jpg" alt="knife"></picture>
+                  </div>
+                  <div class="slider-mobile__slide swiper-slide">
+                     <picture><source srcset="img/mobile/knifes-mobile.webp" type="image/webp"><img src="img/mobile/knifes-mobile.jpg" alt="knife"></picture>
+                  </div>
+                  <div class="slider-mobile__slide swiper-slide">
+                     <picture><source srcset="img/mobile/knifes-mobile.webp" type="image/webp"><img src="img/mobile/knifes-mobile.jpg" alt="knife"></picture>
+                  </div>
+                  <div class="slider-mobile__slide swiper-slide">
+                     <picture><source srcset="img/mobile/knifes-mobile.webp" type="image/webp"><img src="img/mobile/knifes-mobile.jpg" alt="knife"></picture>
+                  </div>
+                  <div class="slider-mobile__slide swiper-slide">
+                     <picture><source srcset="img/mobile/knifes-mobile.webp" type="image/webp"><img src="img/mobile/knifes-mobile.jpg" alt="knife"></picture>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="video-mobile">
+            <div class="video-mobile__video">
+               <picture><source srcset="img/mobile/video-mobile.webp" type="image/webp"><img src="img/mobile/video-mobile.jpg" alt="video-knife"></picture>
+            </div>
+         </section>
+         <section class="characteristic-mobile">
+            <div class="characteristic-mobile__block">
+               <div class="characteristic-mobile__title">
+                  <div class="title-border">Характеристики</div>
+               </div>
+               <div class="characteristic-mobile__img">
+                  <picture><source srcset="img/mobile/pictur-mobile.webp" type="image/webp"><img src="img/mobile/pictur-mobile.jpg" alt="knife-picture"></picture>
+               </div>
+               <div class="characteristic-mobile__info">
+                  <div class="characteristic-mobile__item">
+                     <span>Длина лезвия</span>
+                     <span>24см</span>
+                  </div>
+                  <div class="characteristic-mobile__item">
+                     <span>Длина лезвия</span>
+                     <span>24см</span>
+                  </div>
+                  <div class="characteristic-mobile__item">
+                     <span>Длина лезвия</span>
+                     <span>24см</span>
+                  </div>
+                  <div class="characteristic-mobile__item">
+                     <span>Длина лезвия</span>
+                     <span>24см</span>
+                  </div>
+               </div>
+               <a href="" class="characteristic-mobile__more">
+                  <img src="img/elements/plus.svg" alt="plus">
+                  <span>больше характеристик</span>
+               </a>
+            </div>
+         </section>
+         <div class="more-input">
+   <div class="more-input__title">
+      Узнавайте первым о новинках и новостях
+   </div>
+   <div class="more-input__container">
+      <input type="text" class="more-input__input" placeholder="Ваш e-mail">
+      <span></span>
+   </div>
+</div>
+         <section class="knifes">
+            <div class="container knifes__container">
+               <div class="knifes__card card-tab">
+                  <div class="card-tab__img">
+                     <div class="card-tab__to-basket">
+                        <img src="img/elements/plus.svg" alt="plus">
                      </div>
-                     <div class="w-info__part">
-                        <div class="w-info__title">Medium</div>
-                        <div class="w-info__text">
-                           <p>I like to think and write about UX Design on Medium. I also plan to upload designs from my
-                              personal project there too.</p>
+                     <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                  </div>
+                  <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                  <div class="card-tab__price"><span>690 р.</span></div>
+               </div>
+               <div class="knifes__card card-tab">
+                  <div class="card-tab__img">
+                     <div class="card-tab__to-basket">
+                        <img src="img/elements/plus.svg" alt="plus">
+                     </div>
+                     <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                  </div>
+                  <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                  <div class="card-tab__price"><span>690 р.</span></div>
+               </div>
+               <div class="knifes__card card-tab">
+                  <div class="card-tab__img">
+                     <div class="card-tab__to-basket">
+                        <img src="img/elements/plus.svg" alt="plus">
+                     </div>
+                     <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                  </div>
+                  <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                  <div class="card-tab__price"><span>690 р.</span></div>
+               </div>
+               <div class="knifes__card card-tab">
+                  <div class="card-tab__img">
+                     <div class="card-tab__to-basket">
+                        <img src="img/elements/plus.svg" alt="plus">
+                     </div>
+                     <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                  </div>
+                  <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                  <div class="card-tab__price"><span>690 р.</span></div>
+               </div>
+            </div>
+            <div class="line"></div>
+         </section>
+         <section class="tab-category tabs2">
+            <div class="container tab-category__container">
+               <div class="tabs__list">
+                  <button class="tabs__btn2 tabs__btn2--active2" data-tabs-path2="new">
+                     НОВИНКИ
+                  </button>
+                  <div class="tabs__btn2" data-tabs-path2="popular">
+                     ПОПУЛЯРНОЕ
+                  </div>
+               </div>
+               <div class="tabs__content2 tabs__content2--active2" data-tabs-target2="new">
+                  <div class="tab-category__content">
+                     <div class="tab-category__card card-tab">
+                        <div class="card-tab__img">
+                           <div class="card-tab__to-basket">
+                              <img src="img/elements/plus.svg" alt="plus">
+                           </div>
+                           <a href=""><picture><source srcset="img/card/knife-blue.webp" type="image/webp"><img src="img/card/knife-blue.png" alt="knife"></picture></a>
                         </div>
-                        <div class="w-info__descr">
-                           Tulisan pilihan
+                        <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                        <div class="card-tab__price"><span>690 р.</span><span class="card-tab__new"><a
+                                 href="">Новинка</a></span></div>
+                     </div>
+                     <div class="tab-category__card card-tab">
+                        <div class="card-tab__img">
+                           <div class="card-tab__to-basket">
+                              <img src="img/elements/plus.svg" alt="plus">
+                           </div>
+                           <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
                         </div>
-                        <div class="w-info__items">
-                           <ul class="w-info__list">
-                              <li class="w-info__item">Mengenal UX Design dan Berkarir sebagai UX Designer</li>
-                              <li class="w-info__item">Product Design Sprint 101 - Bahasa Indonesia</li>
-                              <li class="w-info__item">Cerita Abunawas & Cara Startup Jaman Now Melakukan UX Research
-                              </li>
-                           </ul>
+                        <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                        <div class="card-tab__price"><span>690 р.</span><span class="card-tab__new"><a
+                                 href="">Новинка</a></span></div>
+                     </div>
+                     <div class="tab-category__card card-tab">
+                        <div class="card-tab__img">
+                           <div class="card-tab__to-basket">
+                              <img src="img/elements/plus.svg" alt="plus">
+                           </div>
+                           <a href=""><picture><source srcset="img/card/knife-blue.webp" type="image/webp"><img src="img/card/knife-blue.png" alt="knife"></picture></a>
                         </div>
-                        <a href="" class="w-blog__link link-arrow">
-                           <span>Read My Medium</span>
-                           <img src="img/arrow_right.svg" alt="arrow">
-                        </a>
+                        <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                        <div class="card-tab__price"><span>690 р.</span><span class="card-tab__new"><a
+                                 href="">Новинка</a></span></div>
+                     </div>
+                     <div class="tab-category__card card-tab">
+                        <div class="card-tab__img">
+                           <div class="card-tab__to-basket">
+                              <img src="img/elements/plus.svg" alt="plus">
+                           </div>
+                           <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                        </div>
+                        <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                        <div class="card-tab__price"><span>690 р.</span><span class="card-tab__new"><a
+                                 href="">Новинка</a></span></div>
                      </div>
                   </div>
-                  <div class="writing__blog w-blog">
-                     <h4 class="w-blog__title">
-                        Personal Blog
-                     </h4>
-                     <div class="w-blog__descr">
-                        <p>I usually write about my thoughts, a unique perspective, and personal journal on my personal
-                           blog</p>
+               </div>
+               <div class="tabs__content2" data-tabs-target2="popular">
+                  <div class="tab-category__content">
+                     <div class="tab-category__card card-tab">
+                        <div class="card-tab__img">
+                           <div class="card-tab__to-basket">
+                              <img src="img/elements/plus.svg" alt="plus">
+                           </div>
+                           <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                        </div>
+                        <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                        <div class="card-tab__price"><span>690 р.</span><span class="card-tab__new"><a
+                                 href="">Популярное</a></span></div>
                      </div>
-                     <a href="" class="w-blog__link link-arrow">
-                        <span>Curious? Read on this</span>
-                        <img src="img/arrow_right.svg" alt="arrow">
+                     <div class="tab-category__card card-tab">
+                        <div class="card-tab__img">
+                           <div class="card-tab__to-basket">
+                              <img src="img/elements/plus.svg" alt="plus">
+                           </div>
+                           <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                        </div>
+                        <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                        <div class="card-tab__price"><span>690 р.</span><span class="card-tab__new"><a
+                                 href="">Популярное</a></span></div>
+                     </div>
+                     <div class="tab-category__card card-tab">
+                        <div class="card-tab__img">
+                           <div class="card-tab__to-basket">
+                              <img src="img/elements/plus.svg" alt="plus">
+                           </div>
+                           <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                        </div>
+                        <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                        <div class="card-tab__price"><span>690 р.</span><span class="card-tab__new"><a
+                                 href="">Популярное</a></span></div>
+                     </div>
+                     <div class="tab-category__card card-tab">
+                        <div class="card-tab__img">
+                           <div class="card-tab__to-basket">
+                              <img src="img/elements/plus.svg" alt="plus">
+                           </div>
+                           <a href=""><picture><source srcset="img/card/knife-dark.webp" type="image/webp"><img src="img/card/knife-dark.png" alt="knife"></picture></a>
+                        </div>
+                        <a href="" class="card-tab__name">Складной нож SQ01-B</a>
+                        <div class="card-tab__price"><span>690 р.</span><span class="card-tab__new"><a
+                                 href="">Популярное</a></span></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="line"></div>
+         </section>
+
+         <section class="info">
+            <div class="container info__container">
+               <div class="info__top top-info">
+                  <div class="top-info__img">
+                     <picture><source srcset="img/info/01.webp" type="image/webp"><img src="img/info/01.jpg" alt="meat"></picture>
+                  </div>
+                  <div class="top-info__about">
+                     <h3 class=" top-info__title">
+                        «Tuotown» – легендарные ножи, создающие шедевры
+                     </h3>
+                     <p>
+                        Компания «Tuotown» – эксклюзивный представитель профессиональных кухонных ножей, изготовленных
+                        лучшими мастерами Восточной Азии с применением передового европейского оборудования и
+                        современных
+                        материалов. Они отличаются идеальным балансом и фантастической остротой. Сочетают в себе вековые
+                        традиции и новейшие разработки. Также предлагаем широкий ассортимент сопутствующих товаров.
+                     </p>
+                  </div>
+               </div>
+               <div class="info__bottom bottom-info">
+                  <div class="bottom-info__block">
+                     <p>
+                        Истинная красота ножа — совершённая функциональность и визуальная гармония. Этот предмет
+                        издревле сопутствовал человеку: от зари цивилизации до сегодняшних дней. На протяжении всей
+                        истории человечества он был верным помощником, незаменимым инструментом и грозным оружием.
+                        Предлагаем изделия Hi-end качества по доступным ценам настоящим ценителям японских ножей.
+                     </p>
+                     <p>
+                        Отличительной чертой нашего интернет-магазина являются уникальные торговые предложения,
+                        эксклюзивность продукции, неизменно высокое качество и выгодные цены. Осуществляем продажи
+                        элитных японских кухонных ножей для профессионалов и любителей. В обширной ассортиментной
+                        линейке представлены изделия для различных потребностей и любого бюджета — от столовых приборов
+                        до шеф-ножей.
+                     </p>
+                     <div class="bottom-info__descr">
+                        Ножи «Tuotown» – это главный инструмент поваров и секрет кулинарного мастерства
+                     </div>
+                  </div>
+                  <div class="bottom-info__img">
+                     <picture><source srcset="img/info/02.webp" type="image/webp"><img src="img/info/02.jpg" alt="meat"></picture>
+                  </div>
+               </div>
+            </div>
+            <div class="line"></div>
+         </section>
+         <section class="news">
+            <div class="container news__container">
+               <h3 class="news__title">Всё самое интересное о ножах</h3>
+               <div class="news__block">
+                  <div class="news__item item-news">
+                     <a class="item-news__link" href="">
+                        <div class="item-news__date">
+                           4 августа 2021 19:24
+                        </div>
+                        <div class="item-news__text">
+                           <p>Традиционные виды японских кухонных ножей</p>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="news__item item-news">
+                     <a class="item-news__link" href="">
+                        <div class="item-news__date">
+                           4 августа 2021 19:24
+                        </div>
+                        <div class="item-news__text">
+                           <p>Всемирная история режущих клинков — взгляд в прошлое</p>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="news__item item-news">
+                     <a class="item-news__link" href="">
+                        <div class="item-news__date">
+                           4 августа 2021 19:24
+                        </div>
+                        <div class="item-news__text">
+                           <p>Традиционные виды японских кухонных ножей</p>
+                        </div>
                      </a>
                   </div>
                </div>
             </div>
          </section>
-         <section class="product">
-            <div class="container">
-               <h2 class="product__title">
-                  Let’s work together on your next product.
-               </h2>
-               <div class="product__email">
-                  <img src="img/hand.svg" alt="hand">
-                  <a href="email:pratamaiosi@gmail.com">pratamaiosi@gmail.com</a>
-               </div>
-            </div>
-         </section>
       </main>
       <footer class="footer">
-         <div class="container">
-            <div class="footer__wrap">
-               <div class="footer__info">
-                  <div class="footer__email">
-                     <a href="email:@iosipratama">@iosipratama</a>
-                  </div>
-                  <div class="footer__buy">
-                     <span>Have a nice day</span>
-                     <img src="img/smail.png" alt="smail">
-                  </div>
-               </div>
-               <div class="footer__links">
-                  <ul class="footer__list">
-                     <li class="footer__item"><a href="" class="footer__link">Personal Blog</a></li>
-                     <li class="footer__item"><a href="" class="footer__link">Dribbble</a></li>
-                     <li class="footer__item"><a href="" class="footer__link">Medium</a></li>
-                     <li class="footer__item"><a href="" class="footer__link">Behance</a></li>
-                     <li class="footer__item"><a href="" class="footer__link">Linkedin</a></li>
-                  </ul>
-               </div>
+   <div class="container footer__container">
+      <div class="footer__top">
+         <div class="footer__info info-footer">
+            <div class="info-footer__logo">
+               <a href=""><img src="img/header/logo.svg" alt="logo"></a>
+               <div class="info-footer__title">легендарные ножи, создающие шедевры</div>
+            </div>
+            <div class="info-footer__text">
+               <p>Компания «Tuotown» – эксклюзивный представитель профессиональных кухонных ножей, изготовленных лучшими
+                  мастерами Восточной Азии с применением передового европейского оборудования и современных материалов.
+               </p>
+               <p>Они отличаются идеальным балансом и фантастической остротой. Сочетают в себе вековые традиции
+                  и новейшие
+                  разработки. Также предлагаем широкий ассортимент сопутствующих товаров.</p>
             </div>
          </div>
-      </footer>
+         <div class="footer__menu menu-footer">
+            <div class="menu-footer__block">
+               <div class="title-footer">Информация</div>
+               <ul class="menu-footer__list">
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Главная</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Новости</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">О компании</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Контакты</a></li>
+               </ul>
+            </div>
+            <div class="menu-footer__block">
+               <div class="title-footer">Каталог</div>
+               <ul class="menu-footer__list">
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Кухонные ножи</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Складные ножи</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Точилки для ножей</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Аксессуары</a></li>
+               </ul>
+            </div>
+            <div class="menu-footer__soc footer-soc">
+               <div class="footer-soc__title-footer title-footer">Мы в соцсетях</div>
+               <div class="footer-soc__links">
+                  <a href="" class="footer-soc__link">
+                     <img src="img/icons/socset/facebook.svg" alt="facebook">
+                  </a>
+                  <a href="" class="footer-soc__link">
+                     <img src="img/icons/socset/vk.svg" alt="vk">
+                  </a>
+                  <a href="" class="footer-soc__link">
+                     <img src="img/icons/socset/instagram.svg" alt="instagram">
+                  </a>
+                  <a href="" class="footer-soc__link">
+                     <img src="img/icons/socset/youtube.svg" alt="youtube">
+                  </a>
+               </div>
+            </div>
+
+         </div>
+         <div class="footer__contacts contacts-footer">
+            <div class="title-footer">Контактная информация</div>
+            <a href="tell:+79811201117" class="contacts-footer__phone">+7 (981) 120-11-17</a>
+            <a href="mailto:tuotown@mail.ru" class="contacts-footer__mail">tuotown@mail.ru</a>
+            <div class="contacts-footer__time">08:00 — 18:00, ежедневно</div>
+            <div class="contacts-footer__place">Россия, Москва, МКАД, 19-й километр,
+               вл20с1, вход Ф, 22-68-70</div>
+            <div class="contacts-footer__img">
+               <picture><source srcset="img/icons/big-icons/footer.webp" type="image/webp"><img src="img/icons/big-icons/footer.jpg" alt="icon"></picture>
+            </div>
+         </div>
+      </div>
    </div>
-   <script src="js/main.js"></script>
+   <div class="footer__bottom bottom-footer">
+      <div class="container bottom-footer__container">
+         <div class="bottom-footer__text">
+            <p>TUOTOWN © 2021 Торговая марка TUOTOWN зарегистрирована. Все права защищены и принадлежат
+               правообладателям.</p>
+         </div>
+         <div class="bottom-footer__logo">
+            <picture><source srcset="img/icons/big-icons/footer-brand.webp" type="image/webp"><img src="img/icons/big-icons/footer-brand.png" alt="logo"></picture>
+         </div>
+      </div>
+   </div>
+</footer>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20221013202838"></script>
+
+      <script src="js/app.min.js?_v=20221013202838"></script>
+   </div>
 </body>
 
 </html>
